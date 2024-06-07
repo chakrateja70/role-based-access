@@ -8,7 +8,7 @@ const USER_TYPES = {
   MANAGER: "MANAGER"
 }
 
-const CURRENT_USER_TYPE = USER_TYPES.MANAGER;
+const CURRENT_USER_TYPE = USER_TYPES.EMPLOYEE;
 
 const App = () => {
   return (
@@ -56,7 +56,7 @@ function AppRoutes() {
         <Route path='/user' element={<UserElement><User /></UserElement>}></Route>
         <Route path='/employee' element={<EmployeeElement><Employee /></EmployeeElement>}></Route>
         <Route path='/manager' element={<ManagerElement><Manager /></ManagerElement>}></Route>
-        <Route path='*' element={<div>Page Not Found!</div>}></Route>
+        <Route path='*' element={<div className='alert-mssg'>Page Not Found!</div>}></Route>
       </Routes>
     </div>
   )
