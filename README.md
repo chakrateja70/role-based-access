@@ -16,4 +16,4 @@ Currently, two official plugins are available:
 
     1.3 If you logged as Employee then you can have access to Home Page, User Page & Employee page.
 
-    1.4 If you logged as Manager then you can have access to Home page, User page, Employee page &       Manager Page.
+    1.4 If you logged as Manager then you can have access to Home page, User page, Employee page &    Manager Page.

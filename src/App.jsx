@@ -4,11 +4,11 @@ import './App.css'
 const USER_TYPES = {
   PUBLIC: "Public User",
   NORMAL_USER: "Normal User",
-  EMPLOYEE: "Employee",
-  MANAGER: "Manager"
+  EMPLOYEE: "EMPLOYEE",
+  MANAGER: "MANAGER"
 }
 
-const CURRENT_USER_TYPE = USER_TYPES.EMPLOYEE;
+const CURRENT_USER_TYPE = USER_TYPES.MANAGER;
 
 const App = () => {
   return (
