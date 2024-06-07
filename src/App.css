@@ -1,0 +1,28 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+    padding: 20px;
+    border: 0px;
+    height: 10vh;
+    color: #ffffff;
+    border-bottom: red 1px solid;
+}
+.link-item {
+    color: #ffffff;
+    text-decoration: none;
+}
+.link-item-user {
+    color: rgb(197, 197, 18);
+    font-weight: 600;
+    font-size: 24px;
+}
+.user-logged {
+    color: #000;
+}
+.alert-mssg {
+    margin-top: 50px;
+    font-size: 26px;
+}
